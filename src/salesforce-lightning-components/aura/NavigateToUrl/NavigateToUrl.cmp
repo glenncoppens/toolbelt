@@ -1,0 +1,4 @@
+<aura:component implements="force:lightningQuickAction,lightning:availableForFlowActions">
+    <aura:dependency resource="markup://force:navigateToUrl" type="EVENT"/>
+    <aura:attribute name="url" type="String" />
+</aura:component>
